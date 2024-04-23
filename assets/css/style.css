@@ -9,6 +9,9 @@ body {
     flex-direction: column;
 }
 
+a{
+    text-decoration:none;
+}
 header {
     position: sticky;
     top: 0;
@@ -17,7 +20,7 @@ header {
     color: #f3d4b0;
     justify-content: center;
     display: flex;
-    text-shadow: 3px 3px black;
+    text-shadow: 3px 3px 3px black;
     box-shadow: 0px 1px black;
 }
 
@@ -38,7 +41,7 @@ section {
     width: 100%;
 }
 
-#intro>ul {
+#shortcuts {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -48,7 +51,7 @@ section {
     margin: 5px;
 }
 
-#intro li {
+#shortcuts li {
     color: antiquewhite;
     display: block;
     border: none;
@@ -57,6 +60,10 @@ section {
     flex-basis: 30%;
     justify-content: center;
     text-align: center;
+}
+
+#shortcuts a{
+    color: antiquewhite;
 }
 
 footer {
