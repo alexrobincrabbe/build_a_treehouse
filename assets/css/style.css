@@ -12,9 +12,38 @@ header{
     z-index:10; 
 }
 
+/*main section styles */
 main{
     position:relative;
 }
+
+/* Home Page */
+
+section{
+    margin:5px;
+}
+
+#intro >ul{
+    display:flex;
+    list-style: none;
+    flex-wrap:wrap;
+    flex-direction: row;
+    flex-basis:30%;
+    justify-content: space-between;
+    margin:5px;
+}
+
+#intro li{
+    color:antiquewhite;
+    display:block;
+    border:none;
+    background-color: lightslategray;
+    border-radius:5px;
+    flex-basis:30%;
+    justify-content: center;
+    text-align: center;
+}
+
 footer{
     position: relative;
     bottom:0
