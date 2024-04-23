@@ -15,6 +15,8 @@ header{
 /*main section styles */
 main{
     position:relative;
+    display:flex;
+    flex-direction: column;
 }
 
 /* Home Page */
@@ -23,6 +25,9 @@ section{
     margin:5px;
 }
 
+#treehouse{
+    width: 100%;
+}
 #intro >ul{
     display:flex;
     list-style: none;
@@ -47,4 +52,11 @@ section{
 footer{
     position: relative;
     bottom:0
+}
+
+@media screen and (min-width:992px) {
+    #treehouse{
+        width:40%;
+    }
+    
 }
