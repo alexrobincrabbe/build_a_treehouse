@@ -70,9 +70,25 @@ img {
 
 footer {
     position: relative;
-    bottom: 0
+    bottom: 0; 
+    display: flex;
+    justify-content: center;
+    margin:10px 0px;
+    flex-direction: column;
+    text-align: center;
+    border-top:black solid 1px;
+    
 }
 
+footer ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    justify-content: space-around;
+    margin:5px;
+    list-style-type: none;
+}
 @media screen and (min-width:992px) {
     #treehouse {
         width: 40%;
