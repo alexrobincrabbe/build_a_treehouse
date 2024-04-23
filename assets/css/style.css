@@ -35,9 +35,11 @@ main {
 
 section {
     margin: 5px;
+    display:flex;
+    flex-direction: column;
 }
 
-#treehouse {
+img {
     width: 100%;
 }
 
