@@ -42,6 +42,7 @@ nav{
     color:inherit;
     display:none;
     box-shadow:inherit;
+    transition:display 0s height 1s;
 }
 
 .toggle-links-label{
@@ -51,8 +52,15 @@ nav{
     display:none;
 }
 
+@keyframes menu-dropdown {
+    from {max-height: 0px;}
+    to{max-height: 1000px;}
+}
+
 #toggle-links:checked ~ nav{
     display:block;
+    animation-name:menu-dropdown;
+    animation-duration: 1.5s;
 }
 
 
