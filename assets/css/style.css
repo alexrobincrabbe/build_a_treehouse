@@ -126,6 +126,11 @@ img {
     color: antiquewhite;
 }
 
+/* Gallery */
+
+
+
+/* Footer */
 footer {
     position: relative;
     bottom: 0; 
@@ -135,7 +140,6 @@ footer {
     flex-direction: column;
     text-align: center;
     border-top:black solid 1px;
-    
 }
 
 footer ul {
@@ -147,6 +151,23 @@ footer ul {
     margin:5px;
     list-style-type: none;
 }
+
+@media screen and (min-width:768px) {
+    #gallery{
+        height:70vh;
+        overflow-y: hidden;
+        width:auto;
+        display: flex;
+        justify-content:baseline;
+    }
+    
+    #gallery img{
+        height:100%;
+        width:auto;
+    }
+
+}
+
 @media screen and (min-width:992px) {
     #treehouse {
         width: 40%;
