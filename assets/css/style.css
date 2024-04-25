@@ -11,6 +11,7 @@ body {
 }
 
 
+/* Header Styles*/
 
 header {
     position: sticky;
@@ -25,8 +26,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-around;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 header a{
@@ -51,11 +51,13 @@ nav{
 
 .toggle-links-label{
     font-size: 150%;
+    padding-right:5px;
 }
 #toggle-links{
     display:none;
 }
 
+/* menu dropdown transition animation */
 @keyframes menu-dropdown {
     from {max-height: 0px;}
     to{max-height: 1000px;}
@@ -66,7 +68,6 @@ nav{
     animation-name:menu-dropdown;
     animation-duration: 2s;
 }
-
 
 #site-links{
     display: flex;
@@ -79,6 +80,7 @@ nav{
     justify-content: space-around;
 }
 
+/* Highlight Link to Current Page */
 .this-page-link{
     text-shadow:2px 0px 20px rgb(160, 255, 153),
                 -2px 0px 20px  rgb(160, 255, 153),
@@ -86,23 +88,26 @@ nav{
                 0px 2px 20px  rgb(160, 255, 153);
 }
 
-/*main section styles */
+/* Main Section Styles */
 main {
     display:flex;
     flex-direction: column;
     flex:1 0 auto;
 }
 
-/* Home Page */
+section a{
+    text-decoration: none;
+    color:#0693e3;
+}
 
+img{
+    width:100%;
+}
+/* Home Page */
 section {
     margin: 5px;
     display:flex;
     flex-direction: column;
-}
-
-img {
-    width: 100%;
 }
 
 #shortcuts {
@@ -138,7 +143,6 @@ img {
 }
 
 /* Contact Page */
-
 #contact{
     background: url("../images/treehouse.jpg") no-repeat center 80%;
     background-size: cover;
@@ -175,8 +179,8 @@ footer ul {
     align-self:flex-end;
     color:#f1f1f1;
     z-index: 3;
-
 }
+
 #top-shortcut button{
     text-decoration: none;
     width:35px;
@@ -187,7 +191,7 @@ footer ul {
     background-color: rgb(49 113 80);   
 }
 
-#top-shortcut >button>a{
+#top-shortcut > button > a{
     width:100%;
     text-decoration: none;
     font-size:200%;
@@ -196,8 +200,12 @@ footer ul {
    
 
 @media screen and (min-width:768px) {
+    /* Scroll to top button is only needed on phones */
+    #top-shortcut,#shortcuts{
+        display:none;
+    }
     
-    
+    /* Change to horizontal scrolling of gallery on tablets or larger */
     #gallery{
         height:80vh;
         overflow-y: hidden;
@@ -212,11 +220,60 @@ footer ul {
         width:auto;
     }
 
+
 }
 
 @media screen and (min-width:992px) {
-    #treehouse {
-        width: 40%;
+    main{
+        display:flex;
+        flex-direction:column;
+    }
+    
+    main  section{
+        flex-direction: column;
+       
+    }
+    
+    #intro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top;
+        background-color: rgb(231, 231, 231);
     }
 
+    #intro picture{
+        flex-shrink:2;
+        min-width: 350px;
+        margin:10px;
+    }
+
+    #intro img{
+        object-fit: cover;
+    }
+    #intro article{
+        flex-shrink: 1;
+        flex-grow:1;
+        padding:20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #subsections{
+        display: flex;
+        flex-direction: row;
+    }
+     
+    #mini-gallery{
+        display:flex;
+        flex-direction: row;
+        max-height:20vw;
+        max-width:75vw;
+        overflow-y:hidden;
+        align-self: baseline;
+    }
+
+    #mini-gallery  img{
+        height:20vw;
+    }
 }
