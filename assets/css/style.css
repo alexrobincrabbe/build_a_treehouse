@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -32,6 +33,7 @@ header a{
     text-decoration:none;
     text-shadow: none;
     color: #f3d4b0;
+    height: 10vh;
 }
 
 nav{
@@ -86,7 +88,9 @@ nav{
 
 /*main section styles */
 main {
-    position: relative;
+    display:flex;
+    flex-direction: column;
+    flex:1 0 auto;
 }
 
 /* Home Page */
@@ -128,7 +132,19 @@ img {
 
 /* Gallery */
 
+#gallery img{
+    border:none;
+    margin:5px;
+}
 
+/* Contact Page */
+
+#contact{
+    background: url("../images/treehouse.jpg") no-repeat center 80%;
+    background-size: cover;
+    flex-grow:1;
+    margin:0;
+}
 
 /* Footer */
 footer {
@@ -140,6 +156,7 @@ footer {
     flex-direction: column;
     text-align: center;
     border-top:black solid 1px;
+    height:10vh;
 }
 
 footer ul {
@@ -152,13 +169,42 @@ footer ul {
     list-style-type: none;
 }
 
+
+#top-shortcut{
+    margin:-50px 20px 0px 0px;
+    align-self:flex-end;
+    color:#f1f1f1;
+    z-index: 3;
+
+}
+#top-shortcut button{
+    text-decoration: none;
+    width:35px;
+    height: 35px;
+    border-radius: 100%;
+    overflow:hidden;
+    border:2px solid black;
+    background-color: rgb(49 113 80);   
+}
+
+#top-shortcut >button>a{
+    width:100%;
+    text-decoration: none;
+    font-size:200%;
+    color:#f3d4b0;
+}
+   
+
 @media screen and (min-width:768px) {
+    
+    
     #gallery{
-        height:70vh;
+        height:80vh;
         overflow-y: hidden;
         width:auto;
         display: flex;
         justify-content:baseline;
+        flex-direction: row;
     }
     
     #gallery img{
