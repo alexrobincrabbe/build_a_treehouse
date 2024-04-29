@@ -238,6 +238,8 @@ footer ul {
 }
 
 @media screen and (min-width:992px) {
+
+    /* Home Page */
     main {
         display: flex;
         flex-direction: column;
@@ -289,5 +291,16 @@ footer ul {
 
     #mini-gallery img {
         height: 20vw;
+    }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    #mini-gallery::-webkit-scrollbar{
+        display:none
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    #mini-gallery{
+        -ms-overflow-style: none;
+        scrollbar-width:none;
     }
 }
