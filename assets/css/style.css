@@ -32,7 +32,7 @@ header {
 header a {
     text-decoration: none;
     text-shadow: none;
-    color: #f3d4b0;
+    color: #efd5b8;
     height: 10vh;
 }
 
@@ -249,7 +249,7 @@ footer ul {
 
     /* Change to horizontal scrolling of gallery on tablets or larger */
     #gallery {
-        height: 80vh;
+        height: 85vh;
         overflow-y: hidden;
         width: auto;
         display: flex;
