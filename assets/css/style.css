@@ -29,84 +29,91 @@ header {
     font-size: 120%;
 }
 
-header a{
-    text-decoration:none;
+header a {
+    text-decoration: none;
     text-shadow: none;
     color: #f3d4b0;
     height: 10vh;
 }
 
-nav{
-    position:absolute;
-    top:100%;
-    left:0%;
-    width:100%;
+nav {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
     background-color: rgb(49 113 80);
-    color:inherit;
-    display:none;
-    box-shadow:inherit;
-    transition:display 0s height 1s;
-    overflow:hidden;
+    color: inherit;
+    display: none;
+    box-shadow: inherit;
+    transition: display 0s height 1s;
+    overflow: hidden;
 }
 
-.toggle-links-label{
+.toggle-links-label {
     font-size: 150%;
-    padding-right:5px;
+    padding-right: 5px;
 }
-#toggle-links{
-    display:none;
+
+#toggle-links {
+    display: none;
 }
 
 /* menu dropdown transition animation */
 @keyframes menu-dropdown {
-    from {max-height: 0px;}
-    to{max-height: 1000px;}
+    from {
+        max-height: 0px;
+    }
+
+    to {
+        max-height: 1000px;
+    }
 }
 
-#toggle-links:checked ~ nav{
-    display:block;
-    animation-name:menu-dropdown;
+#toggle-links:checked~nav {
+    display: block;
+    animation-name: menu-dropdown;
     animation-duration: 2s;
 }
 
-#site-links{
+#site-links {
     display: flex;
     flex-direction: row;
     list-style: none;
-    text-align:right;
+    text-align: right;
     font-size: 150%;
-    width:100%;
+    width: 100%;
     padding-right: 10px;
     justify-content: space-around;
 }
 
 /* Highlight Link to Current Page */
-.this-page-link{
-    text-shadow:2px 0px 20px rgb(160, 255, 153),
-                -2px 0px 20px  rgb(160, 255, 153),
-                0px -2px 20px  rgb(160, 255, 153),
-                0px 2px 20px  rgb(160, 255, 153);
+.this-page-link {
+    text-shadow: 2px 0px 20px rgb(160, 255, 153),
+        -2px 0px 20px rgb(160, 255, 153),
+        0px -2px 20px rgb(160, 255, 153),
+        0px 2px 20px rgb(160, 255, 153);
 }
 
 /* Main Section Styles */
 main {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    flex:1 0 auto;
+    flex: 1 0 auto;
 }
 
-section a{
+section a {
     text-decoration: none;
-    color:#0693e3;
+    color: #0693e3;
 }
 
-img{
-    width:100%;
+img {
+    width: 100%;
 }
+
 /* Home Page */
 section {
     margin: 5px;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -131,36 +138,41 @@ section {
     text-align: center;
 }
 
-#shortcuts a{
+#shortcuts a {
     color: antiquewhite;
 }
 
 /* Gallery */
 
-#gallery img{
-    border:none;
-    margin:5px;
+#gallery img {
+    border: none;
+    margin: 5px;
+}
+
+/* Hide mini-gallery on phones */
+#mini-gallery{
+    display:none;
 }
 
 /* Contact Page */
-#contact{
+#contact {
     background: url("../images/treehouse.jpg") no-repeat center 80%;
     background-size: cover;
-    flex-grow:1;
-    margin:0;
+    flex-grow: 1;
+    margin: 0;
 }
 
 /* Footer */
 footer {
     position: relative;
-    bottom: 0; 
+    bottom: 0;
     display: flex;
     justify-content: center;
-    margin:10px 0px;
+    margin: 10px 0px;
     flex-direction: column;
     text-align: center;
-    border-top:black solid 1px;
-    height:10vh;
+    border-top: black solid 1px;
+    height: 10vh;
 }
 
 footer ul {
@@ -169,72 +181,73 @@ footer ul {
     flex-wrap: wrap;
     flex-basis: 30%;
     justify-content: space-around;
-    margin:5px;
+    margin: 5px;
     list-style-type: none;
 }
 
 
-#top-shortcut{
-    margin:-50px 20px 0px 0px;
-    align-self:flex-end;
-    color:#f1f1f1;
+#top-shortcut {
+    margin: -50px 20px 0px 0px;
+    align-self: flex-end;
+    color: #f1f1f1;
     z-index: 3;
 }
 
-#top-shortcut button{
+#top-shortcut button {
     text-decoration: none;
-    width:35px;
+    width: 35px;
     height: 35px;
     border-radius: 100%;
-    overflow:hidden;
-    border:2px solid black;
-    background-color: rgb(49 113 80);   
+    overflow: hidden;
+    border: 2px solid black;
+    background-color: rgb(49 113 80);
 }
 
-#top-shortcut > button > a{
-    width:100%;
+#top-shortcut>button>a {
+    width: 100%;
     text-decoration: none;
-    font-size:200%;
-    color:#f3d4b0;
+    font-size: 200%;
+    color: #f3d4b0;
 }
-   
+
 
 @media screen and (min-width:768px) {
+
     /* Scroll to top button is only needed on phones */
-    #top-shortcut,#shortcuts{
-        display:none;
+    #top-shortcut,
+    #shortcuts {
+        display: none;
     }
-    
+
     /* Change to horizontal scrolling of gallery on tablets or larger */
-    #gallery{
-        height:80vh;
+    #gallery {
+        height: 80vh;
         overflow-y: hidden;
-        width:auto;
+        width: auto;
         display: flex;
-        justify-content:baseline;
+        justify-content: baseline;
         flex-direction: row;
     }
-    
-    #gallery img{
-        height:100%;
-        width:auto;
+
+    #gallery img {
+        height: 100%;
+        width: auto;
     }
 
 
 }
 
 @media screen and (min-width:992px) {
-    main{
-        display:flex;
-        flex-direction:column;
-    }
-    
-    main  section{
+    main {
+        display: flex;
         flex-direction: column;
-       
     }
-    
-    #intro{
+
+    main section {
+        flex-direction: column;
+    }
+
+    #intro {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -242,38 +255,39 @@ footer ul {
         background-color: rgb(231, 231, 231);
     }
 
-    #intro picture{
-        flex-shrink:2;
+    #intro picture {
+        flex-shrink: 2;
         min-width: 350px;
-        margin:10px;
+        margin: 10px;
     }
 
-    #intro img{
+    #intro img {
         object-fit: cover;
     }
-    #intro article{
+
+    #intro article {
         flex-shrink: 1;
-        flex-grow:1;
-        padding:20px;
+        flex-grow: 1;
+        padding: 20px;
         display: flex;
         flex-direction: column;
     }
-    
-    #subsections{
+
+    #subsections {
         display: flex;
         flex-direction: row;
     }
-     
-    #mini-gallery{
-        display:flex;
+
+    #mini-gallery {
+        display: flex;
         flex-direction: row;
-        max-height:20vw;
-        max-width:75vw;
-        overflow-y:hidden;
+        max-height: 20vw;
+        max-width: 75vw;
+        overflow-y: hidden;
         align-self: baseline;
     }
 
-    #mini-gallery  img{
-        height:20vw;
+    #mini-gallery img {
+        height: 20vw;
     }
 }
