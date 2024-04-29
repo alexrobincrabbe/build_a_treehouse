@@ -240,7 +240,18 @@ footer ul {
 
 
 @media screen and (min-width:768px) {
+    #logo{
+        width:100%;
+    }
+    nav{
+        display:block;
+        position: relative;
+        box-shadow: none;
+    }
 
+    .toggle-links-label{
+        display:none;
+    }
     /* Scroll to top button is only needed on phones */
     #top-shortcut,
     #shortcuts {
