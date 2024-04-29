@@ -101,6 +101,11 @@ main {
     flex: 1 0 auto;
 }
 
+#intro >div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 section a {
     text-decoration: none;
     color: #0693e3;
@@ -153,6 +158,28 @@ section {
 #mini-gallery{
     display:none;
 }
+
+#mini-gallery-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+#right-arrow{
+    font-size: 400%;
+    margin-left:-100px;
+    margin-right: 50px;
+    opacity: 0.5;
+}
+
+#left-arrow{
+    font-size: 400%;
+    margin-right:-100px;
+    margin-left:50px;
+    opacity: 0.5;
+}
+
 
 /* Contact Page */
 #contact {
