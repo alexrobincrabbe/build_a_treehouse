@@ -101,11 +101,12 @@ main {
     flex: 1 0 auto;
 }
 
-#intro >div{
+#intro>div {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
 section a {
     text-decoration: none;
     color: #0693e3;
@@ -155,28 +156,28 @@ section {
 }
 
 /* Hide mini-gallery on phones */
-#mini-gallery{
-    display:none;
+#mini-gallery {
+    display: none;
 }
 
-#mini-gallery-container{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: center;
+#mini-gallery-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
-#right-arrow{
+#right-arrow {
     font-size: 400%;
-    margin-left:-100px;
+    margin-left: -100px;
     margin-right: 50px;
     opacity: 0.5;
 }
 
-#left-arrow{
+#left-arrow {
     font-size: 400%;
-    margin-right:-100px;
-    margin-left:50px;
+    margin-right: -100px;
+    margin-left: 50px;
     opacity: 0.5;
 }
 
@@ -261,11 +262,6 @@ footer ul {
         width: auto;
     }
 
-
-}
-
-@media screen and (min-width:992px) {
-
     /* Home Page */
     main {
         display: flex;
@@ -321,13 +317,13 @@ footer ul {
     }
 
     /* Hide scrollbar for Chrome, Safari and Opera */
-    #mini-gallery::-webkit-scrollbar{
-        display:none
+    #mini-gallery::-webkit-scrollbar {
+        display: none
     }
 
     /* Hide scrollbar for IE, Edge and Firefox */
-    #mini-gallery{
+    #mini-gallery {
         -ms-overflow-style: none;
-        scrollbar-width:none;
+        scrollbar-width: none;
     }
 }
