@@ -25,17 +25,23 @@
         <section id="contact">
             <div id="form-container">
                 <form id="contact-form"  method="post" action="https://formdump.codeinstitute.net">
-                    <div>
+                    <div id="form-part-1">
+                        <label for="first-name">First Name:</label>
                         <input name="first-name" id="first-name" placeholder="First Name">
                         <br>
-                        <input name="surname" id="surname">
+                        <label for="last-name">Last Name:</label>
+                        <input name="last-name" id="last-name">
                         <br>
+                        <label for="email">Email:</label>
                         <input name="email" id="email" placeholder="enter a valid email address">
                     </div>
                     <div>
-                        <textarea rows="6" cols="35">write your message here</textarea>
+                        <textarea rows="6" cols="35"placeholder="write your message here"></textarea>
                         <br>
-                        <input type="checkbox" name="newsletter" id="newsletter">Sign Up to Newsletter</checkbox>
+                        <div>
+                        <label for="newsletter">Sign up to newsletter</label>
+                        <input type="checkbox" name="newsletter" id="newsletter"></checkbox>
+                        </div>
                         <br>
                         <button type="submit">Submit</button>
                     </div>

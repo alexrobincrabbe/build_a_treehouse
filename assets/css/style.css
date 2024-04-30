@@ -18,7 +18,7 @@ header {
     top: 0;
     background-color: rgb(49 113 80);
     z-index: 10;
-    color: #f3d4b0;
+    color: #ede8e1;
     justify-content: space-between;
     display: flex;
     text-shadow: 3px 3px 3px black;
@@ -32,7 +32,7 @@ header {
 header a {
     text-decoration: none;
     text-shadow: none;
-    color: #efd5b8;
+    color: #ede8e1;
     height: 10vh;
 }
 
@@ -209,13 +209,21 @@ section {
 form{
     text-align: center;
     opacity:1;
+    color:#ede8e1;
 }
 
 
 form input, textarea{
     margin:5px;
-    background-color:rgba(239, 213, 184) ;
+    background-color:#ede8e1 ;
+    border-radius: 5px;
+    padding:5px;
 }
+
+form button{
+    padding:5px
+}
+
 /* Footer */
 footer {
     position: relative;
@@ -375,10 +383,5 @@ footer ul {
         margin:20px;
     }
 
-    form div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-end;
-    }
+   
 }
