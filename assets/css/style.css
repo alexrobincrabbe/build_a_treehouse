@@ -235,6 +235,12 @@ footer {
     text-align: center;
     border-top: black solid 1px;
     height: 10vh;
+    background-color: rgb(49 113 80);
+    color:#ede8e1;
+}
+
+footer a{
+    color:#ede8e1;
 }
 
 footer ul {
@@ -392,7 +398,5 @@ footer ul {
 
     #form-part-2{
         text-align:right;
-    }
-
-   
+    } 
 }
