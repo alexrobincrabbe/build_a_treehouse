@@ -27,16 +27,16 @@
                 <form id="contact-form"  method="post" action="https://formdump.codeinstitute.net">
                     <div id="form-part-1">
                         <label for="first-name">First Name:</label>
-                        <input name="first-name" id="first-name" placeholder="Enter first name">
+                        <input name="first-name" id="first-name" placeholder="Enter first name" required>
                         <br>
                         <label for="last-name">Last Name:</label>
                         <input name="last-name" id="last-name" placeholder="Enter last name">
                         <br>
                         <label for="email">Email:</label>
-                        <input name="email" id="email" placeholder="Enter a valid email address">
+                        <input name="email" id="email" type="email" placeholder="Enter a valid email address" required>
                     </div>
                     <div id="form-part-2">
-                        <textarea rows="6" cols="35"placeholder="write your message here"></textarea>
+                        <textarea rows="6" cols="35"placeholder="write your message here" maxlength="500" required></textarea>
                         <br>
                         <div>
                         <label for="newsletter">Sign up to newsletter</label>
