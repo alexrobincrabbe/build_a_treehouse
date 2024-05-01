@@ -109,7 +109,7 @@ main {
 
 section a {
     text-decoration: none;
-    color: #0693e3;
+    color:  rgb(14, 169, 89);
 }
 
 img {
@@ -155,6 +155,22 @@ section {
     margin: 5px;
 }
 
+
+.image-container{
+    position: relative;
+    text-align: center;
+}
+
+.image-label{
+    position:absolute;
+    z-index: 100;
+    font-size: 300%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#ede8e1;
+    opacity:0.7;
+}
 /* Hide mini-gallery on phones */
 #mini-gallery {
     display: none;
