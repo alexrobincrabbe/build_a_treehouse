@@ -221,7 +221,8 @@ section {
     border-radius: 10px;
     margin:10px;
     padding:10px;
-    border:solid rgba(0,0,0,0.5) 2px;
+    border:solid rgb(255, 255, 255) 2px;
+    box-shadow: -5px 5px 5px black ;
 }
 
 form{
@@ -239,7 +240,15 @@ form input, textarea{
 }
 
 form button{
-    padding:5px
+    padding:5px;
+    box-shadow:-3px 3px 3px black;
+}
+
+form button:active{
+    position: relative;
+    left:-3px;
+    top:3px;
+    box-shadow: none;
 }
 
 /* Show placeholders and hide labels on mobile view */
@@ -512,6 +521,6 @@ footer ul {
     #floor,#walls,#stairs{
         img{
             width:30vw;
-        }
-    
+        }  
+}
 }
