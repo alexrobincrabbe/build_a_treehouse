@@ -242,6 +242,11 @@ form button{
     padding:5px
 }
 
+/* Show placeholders and hide labels on mobile view */
+.desktop-form{
+    display:none;
+}
+
 /* Footer */
 footer {
     position: relative;
@@ -417,4 +422,12 @@ footer ul {
     #form-part-2{
         text-align:right;
     } 
+
+    .desktop-form{
+        display:inline;
+    }
+
+    .mobile-form{
+        display:none;
+    }
 }

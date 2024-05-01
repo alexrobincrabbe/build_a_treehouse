@@ -26,14 +26,17 @@
             <div id="form-container">
                 <form id="contact-form"  method="post" action="https://formdump.codeinstitute.net">
                     <div id="form-part-1">
-                        <label for="first-name">First Name:</label>
-                        <input name="first-name" id="first-name" placeholder="Enter first name" required>
+                        <label for="first-name" class="desktop-form">First Name:</label>
+                        <input name="first-name" id="first-name" class="desktop-form">
+                        <input name="first-name" id="first-name" placeholder="Enter first name" class="mobile-form" required>
                         <br>
-                        <label for="last-name">Last Name:</label>
-                        <input name="last-name" id="last-name" placeholder="Enter last name">
+                        <label for="last-name" class="desktop-form">Last Name:</label>
+                        <input name="last-name" id="last-name" class="desktop-form">
+                        <input name="last-name" id="last-name" placeholder="Enter last name" class="mobile-form">
                         <br>
-                        <label for="email">Email:</label>
-                        <input name="email" id="email" type="email" placeholder="Enter a valid email address" required>
+                        <label for="email" class="desktop-form">Email:</label>
+                        <input name="email" id="email" type="email" class="desktop-form" required>
+                        <input name="email" id="email" type="email" placeholder="Enter a valid email address" class="mobile-form" required>
                     </div>
                     <div id="form-part-2">
                         <textarea rows="6" cols="35"placeholder="write your message here" maxlength="500" required></textarea>
