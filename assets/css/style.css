@@ -150,6 +150,23 @@ section {
     color: antiquewhite;
 }
 
+.subsection h2{
+    margin:5px 0px;
+    background-color:#f1f1f1;
+    text-align:center;
+    color:rgba(49,113, 80, 1);
+}
+
+.subsection p{
+background-color:rgba(49,113,80,0.8);
+color:#ede8e1;
+padding:5px;
+margin:none;
+border:solid black 2px;
+border-radius: none;
+margin-bottom:5px;
+}
+
 /* Gallery */
 
 #gallery img {
@@ -242,6 +259,7 @@ form input, textarea{
 form button{
     padding:5px;
     box-shadow:-3px 3px 3px black;
+    color:rgba(49,113, 80, 1)
 }
 
 form button:active{
@@ -513,7 +531,7 @@ footer ul {
 }
 
 /* pad margins for very large screens */
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1400px) {
     #home-page, #contact-page{
         padding-left:15vw;
         padding-right:15vw;
