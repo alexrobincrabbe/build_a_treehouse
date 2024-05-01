@@ -284,7 +284,8 @@ footer {
     flex-direction: column;
     text-align: center;
     border-top: black solid 1px;
-    height: 10vh;
+    min-height: 10vh;
+    max-height:15vh;
     background-color: rgb(49 113 80);
     color:#ede8e1;
 }
