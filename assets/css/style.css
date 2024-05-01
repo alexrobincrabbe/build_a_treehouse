@@ -352,6 +352,7 @@ footer ul {
         justify-content: space-between;
         align-items: top;
         background-color: rgb(231, 231, 231);
+        color:rgba(49,113, 80, 1)
     }
 
     #intro picture {
