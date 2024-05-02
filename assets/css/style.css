@@ -355,7 +355,7 @@ footer ul {
     }
 
     /* Scroll To Top Button Is Only Needed On Phones */
-    #top-shortcut,
+    #top-shortcut-button,
     #shortcuts {
         display: none;
     }
