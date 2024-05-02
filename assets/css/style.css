@@ -118,12 +118,13 @@ img {
     color: rgba(49, 113, 80, 1)
 }
 
-#intro h2{
-    padding:10px 0px;
+#intro h2 {
+    padding: 10px 0px;
     text-align: center;
-    width:100%;
+    width: 100%;
 }
-#intro p{
+
+#intro p {
     padding-bottom: 10px;
 }
 
@@ -223,9 +224,10 @@ section {
 }
 
 /* Contact Page */
-#contact-form-section h2{
+#contact-form-section h2 {
     display: none;
 }
+
 #contact-form-section {
     display: flex;
     background: url("../images/treehouse.jpg") no-repeat center 80%;
@@ -309,7 +311,7 @@ footer ul {
     align-self: flex-end;
     color: #f1f1f1;
     z-index: 3;
-    font-size:300%;
+    font-size: 300%;
 }
 
 #top-shortcut a {
@@ -322,7 +324,7 @@ footer ul {
     background-color: rgb(49 113 80);
     color: #f3d4b0;
     text-decoration: none;
-    padding:0px 7px;
+    padding: 0px 7px;
 }
 
 
@@ -351,23 +353,6 @@ footer ul {
         display: none;
     }
 
-    /* Change To Horizontal Scrolling Of Gallery On Tablets Or Larger */
-    #gallery {
-        height: 85vh;
-        overflow-y: hidden;
-        width: auto;
-        display: flex;
-        flex-direction: row;
-    }
-
-    #gallery img {
-        height: 98%;
-        width: auto;
-        border: solid 10px rgba(49, 113, 80, 0.7);
-        border-style: ridge;
-        margin: 10px;
-    }
-
     /* Home Page */
     main {
         display: flex;
@@ -377,7 +362,7 @@ footer ul {
     main section {
         flex-direction: column;
     }
-    
+
     /* Intro Section Style on Larger Screens */
 
     #intro {
@@ -391,15 +376,15 @@ footer ul {
     #intro img {
         object-fit: cover;
     }
-    
+
     #intro1 {
         flex-shrink: 2;
         min-width: 350px;
         margin: 10px;
     }
 
-    #intro1 img{
-        border-radius:5px;
+    #intro1 img {
+        border-radius: 5px;
     }
 
     #intro2 {
@@ -409,7 +394,7 @@ footer ul {
         display: flex;
         align-content: space-between;
         justify-content: center;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
 
     /* Show Mini-gallery */
@@ -419,9 +404,9 @@ footer ul {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        overflow:hidden;
+        overflow: hidden;
         border: rgb(49, 113, 80) solid 2px;
-        border-radius:5px;
+        border-radius: 5px;
         box-shadow: -5px 5px 5px black;
     }
 
@@ -431,7 +416,7 @@ footer ul {
         height: 20vw;
         max-height: 365px;
         max-width: 75vw;
-        overflow-y: hidden; 
+        overflow-y: hidden;
     }
 
     #mini-gallery img {
@@ -443,6 +428,7 @@ footer ul {
     #left-arrow {
         display: inline;
     }
+
     /* Hide Mini-gallery scrollbar for Chrome, Safari and Opera */
     #mini-gallery::-webkit-scrollbar {
         display: none
@@ -454,7 +440,7 @@ footer ul {
         scrollbar-width: none;
     }
 
-     /* Subsection Styles for Larger Screens*/
+    /* Subsection Styles for Larger Screens*/
     #subsections {
         display: flex;
         flex-direction: column;
@@ -483,14 +469,16 @@ footer ul {
         background: url("../images/walls.jpg") no-repeat center center/cover;
         height: 100vh;
     }
-   
+
     .subsection {
         background-color: rgb(231, 231, 231);
         min-height: 500px;
     }
-    .subsection >div{
+
+    .subsection>div {
         align-self: center;
     }
+
     .subsection h2 {
         border-radius: 50%;
         background-color: rgba(49, 113, 80, 0.7);
@@ -508,6 +496,23 @@ footer ul {
         border: solid white 2px;
         border-radius: 5px;
         max-width: 500px;
+    }
+
+    /* Change To Horizontal Scrolling Of Gallery On Tablets Or Larger */
+    #gallery {
+        height: 85vh;
+        overflow-y: hidden;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #gallery img {
+        height: 98%;
+        width: auto;
+        border: solid 10px rgba(49, 113, 80, 0.7);
+        border-style: ridge;
+        margin: 10px;
     }
 
     /* Contact Page */
@@ -545,12 +550,14 @@ footer ul {
 
 /* Styles for very Large Screens */
 @media screen and (min-width:1400px) {
-/* pad margins for very large screens */
+
+    /* pad margins for very large screens */
     #home-page,
     #contact-page {
         padding-left: 15vw;
         padding-right: 15vw;
     }
+
     /* Sizes scaled for screen padding */
     #mini-gallery {
         height: 14vw;
