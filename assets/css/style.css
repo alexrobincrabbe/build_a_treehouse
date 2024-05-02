@@ -419,7 +419,7 @@ footer ul {
         color: rgba(49, 113, 80, 1)
     }
 
-    #intro picture {
+    #intro1 {
         flex-shrink: 2;
         min-width: 350px;
         margin: 10px;
@@ -429,7 +429,7 @@ footer ul {
         object-fit: cover;
     }
 
-    #intro article {
+    #intro2 {
         flex-shrink: 1;
         flex-grow: 1;
         padding: 20px;
@@ -470,7 +470,9 @@ footer ul {
         background-color: rgb(231, 231, 231);
         min-height: 500px;
     }
-
+    .subsection >div{
+        align-self: center;
+    }
     .subsection h2 {
         border-radius: 50%;
         background-color: rgba(49, 113, 80, 0.7);
@@ -478,8 +480,6 @@ footer ul {
         color: #ede8e1;
         padding: 5px;
         margin: 10px 150px 10px 150px;
-        align-self: flex-start;
-        justify-self: flex-start;
     }
 
     .subsection p {
@@ -490,8 +490,6 @@ footer ul {
         border: solid white 2px;
         border-radius: 5px;
         max-width: 500px;
-        align-self: flex-start;
-        justify-self: flex-start;
     }
 
     .subsection img {
