@@ -312,28 +312,26 @@ footer ul {
 }
 
 #top-shortcut {
-    margin: -50px 20px 0px 0px;
+    margin: -100px 20px 0px 0px;
     align-self: flex-end;
     color: #f1f1f1;
     z-index: 3;
+    font-size:300%;
 }
 
-#top-shortcut button {
+#top-shortcut a {
     text-decoration: none;
     width: 35px;
     height: 35px;
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: hidden;
     border: 2px solid black;
     background-color: rgb(49 113 80);
+    color: #f3d4b0;
+    text-decoration: none;
+    padding:0px 7px;
 }
 
-#top-shortcut>button>a {
-    width: 100%;
-    text-decoration: none;
-    font-size: 200%;
-    color: #f3d4b0;
-}
 
 /* Styles for Tablet and Larger */
 @media screen and (min-width:768px) {
@@ -355,7 +353,7 @@ footer ul {
     }
 
     /* Scroll To Top Button Is Only Needed On Phones */
-    #top-shortcut-button,
+    #top-shortcut,
     #shortcuts {
         display: none;
     }
