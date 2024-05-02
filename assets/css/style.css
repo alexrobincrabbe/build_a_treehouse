@@ -233,7 +233,10 @@ section {
 }
 
 /* Contact Page */
-#contact {
+#contact-form-section h2{
+    display: none;
+}
+#contact-form-section {
     display: flex;
     background: url("../images/treehouse.jpg") no-repeat center 80%;
     background-size: cover;
