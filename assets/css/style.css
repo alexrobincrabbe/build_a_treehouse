@@ -45,7 +45,6 @@ nav {
     color: inherit;
     display: none;
     box-shadow: inherit;
-    transition: display 0s height 1s;
     overflow: hidden;
 }
 
@@ -170,9 +169,7 @@ section {
     background-color: rgba(49, 113, 80, 0.8);
     color: #ede8e1;
     padding: 5px;
-    margin: none;
     border: solid black 2px;
-    border-radius: none;
     margin-bottom: 5px;
 }
 
@@ -367,7 +364,6 @@ footer ul {
         overflow-y: hidden;
         width: auto;
         display: flex;
-        justify-content: baseline;
         flex-direction: row;
     }
 
@@ -395,7 +391,6 @@ footer ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: top;
         background-color: rgb(231, 231, 231);
         color: rgba(49, 113, 80, 1)
     }
