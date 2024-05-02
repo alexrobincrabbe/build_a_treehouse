@@ -119,6 +119,7 @@ img {
 }
 
 #intro h2 {
+    margin: 10px 0px;
     padding: 10px 0px;
     text-align: center;
     width: 100%;
@@ -381,6 +382,7 @@ footer ul {
     }
 
     #intro h2 {
+        margin:0px;
         border-radius: 100%;
         width: 250px;
         background-color: white;
