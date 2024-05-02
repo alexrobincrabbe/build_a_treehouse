@@ -203,14 +203,7 @@ section {
 }
 
 #mini-gallery-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    overflow:hidden;
-    border: rgb(49, 113, 80) solid 2px;
-    border-radius:5px;
-    box-shadow: -5px 5px 5px black;
+    display: none;
 }
 
 #right-arrow {
@@ -420,6 +413,18 @@ footer ul {
     }
 
     /* Show Mini-gallery */
+
+    #mini-gallery-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        overflow:hidden;
+        border: rgb(49, 113, 80) solid 2px;
+        border-radius:5px;
+        box-shadow: -5px 5px 5px black;
+    }
+
     #mini-gallery {
         display: flex;
         flex-direction: row;
