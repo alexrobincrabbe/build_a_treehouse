@@ -175,11 +175,11 @@ The Business Goals of Build a Treehouse are:
 
 ### Icons
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92331590-1fe40380-f078-11ea-814b-d15b413f59aa.png" alt="Icons">
+  <img src="assets/readme_images/icons.png" alt="Icons">
 </div>
 
 - Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
-- Icons are utilised in the footer for links to external sites.
+- Icons are utilised in the footer for links to external sites, the dropdown menus, and the back to top link.
 
 ### Colors
 <div align="center">
@@ -219,27 +219,75 @@ The Business Goals of Build a Treehouse are:
 
 #### Footer
 
+<div align="center">
+  <img src="assets/readme_images/footer.png" alt="footer">
+</div>
+
+
 - The footer is styled similarly to the header
 - However is not fixed, and is only visible when scrolling down.
 - It contains links to external sites, with more information about treehouses for interested users.
 
 ### Index Page
 #### Introduction
+<div align="center">
+  <img src="assets/readme_images/intro.png" alt="Introduction">
+  <img src="assets/readme_images/intro_mobile.png" alt="Introduction mobile view">
+</div>
 - The top section of the index page is an introduction, that gives and overview of the kinds of treehouses that can be built, any of which may apply to the intested user.
 - The first image was chosen to be visually inviting, and immediately capture the interest of user visting the home page.
-- The mini-gallery appears only on the screen for tablet screens or larger. It was added to add variety to the layour on larger screens, and utilize the screenspace. The border and shadow were added to make it stand out, as it is the only part of the site that uses images from external sources. Arrows were added to make it clear that this image is in a window that is scrollable. The scrollbars were removed for stylistic reasons.
+- Simpler styles were used for the mobile version, to clearly dileanate the sections.
 
-#### Subsection links
+##### Mini-Gallery
+
+<div align="center">
+  <img src="assets/readme_images/mini-gallery.png" alt="Mini-gallery">
+</div>
+
+- The mini-gallery appears only on the screen for tablet screens or larger. It was added to add variety to the layour on larger screens, and utilize the screenspace. The border and shadow were added to make it stand out, as it is the only part of the site that uses images from external sources. Arrows were added to make it clear that this image is in a window that is scrollable. The scrollbars were removed for stylistic reasons.
+- The Mini-Gallery is the only part of the sight that uses images from external sources.
+
+##### Subsection links
+
+<div align="center">
+  <img src="assets/readme_images/subsection_links.png" alt="Subsection links">
+</div>
+
 - These only appear on the mobile version. They were added to allow users to quickly jump to sections without scrolling.
+
+
 #### Floor, Stairs and Walls/Roof sections
+
+<div align="center">
+  <img src="assets/readme_images/floor-section.png" alt="Floor section">
+</div>
+<div align="center">
+  <img src="assets/readme_images/floor-section_mobile.png" alt="Floor section">
+</div>
+
 - The images of the following sections show various stages of construction of a treehouse, and relate to the titles of each section. They were chosen to be both visually appealing, and informative.
 - On larger screens the text for the following sections appears in front of the corresponding image for each subsection. This was done to make the page visually appealing on all screensizes, without leaving large sections of empty space.
 
 #### Scroll to top button
+
+<div align="center">
+  <img src="assets/readme_images/backtotop.png" alt="Back to top button">
+</div>
+
 - This only appears on the mobile view. It appears just above the footer at the end of the page. 
 - It is overlaid on top of the content, to avoid blank space appearing between the content and the footer.
 
 ### Gallery Page
+
+<div align="center">
+  <img src="assets/readme_images/gallery.png" alt="Gallery">
+</div>
+
+<div align="center">
+  <img src="assets/readme_images/gallery_mobile.png" alt="Gallery mobile view">
+</div>
+
+
 - The Gallery page contains images to specific parts of the treehouse.
 - It is intended to be browsed, simply for people intested in seeing the images.
 - It is also intended to be functional. Individual images are linked by words in the text on the main page. This allows users to see images that show more detail than is shown on the home page, if they are interested, without overcrowding the homepage with images.
@@ -248,13 +296,19 @@ The Business Goals of Build a Treehouse are:
 
 ### Contact Page
 
+<div align="center">
+  <img src="assets/readme_images/contact-form.png" alt="Contact form">
+</div>
+
+<div align="center">
+  <img src="assets/readme_images/contact-form_mobile.png" alt="Contact form mobile view">
+</div>
+
+- The contact page contains a simple contact form, which allows users to contact the website owner and subcribe to a newsletter
+- The form is reponsive to use space efficiently on mobile screens
+- All fields must be filled out to submit the form, and the email field only accepts a vaid email format.
 
 ## Feature Ideas
-### Basic
-- A selection of countries to click on that brings you directly to the gallery.
-- The ability to share photos directly to social media.
-- Purchasing on the site
-- More details about countries.
 
 ### Content 
 - In order to keep the scope of the project manageable, the instructions on the site were kept very brief. In practice much more detail should be included on building a tree house. This would include more expansive and specific sections
