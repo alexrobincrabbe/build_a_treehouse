@@ -166,7 +166,7 @@ section {
 }
 
 #shortcuts li {
-    color: #f1f1f1;
+    color: #ede8e1;
     background-color: rgba(49, 113, 80, 1);
     display: block;
     border: none;
@@ -177,7 +177,7 @@ section {
 }
 
 #shortcuts a {
-    color: antiquewhite;
+    color: #ede8e1;
 }
 
 .subsection h2 {
@@ -330,7 +330,7 @@ footer ul {
 #top-shortcut {
     margin: -100px 20px 0px 0px;
     align-self: flex-end;
-    color: #f1f1f1;
+    color: #ede8e1;
     z-index: 3;
     font-size: 300%;
 }
@@ -343,7 +343,7 @@ footer ul {
     overflow: hidden;
     border: 2px solid black;
     background-color: rgb(49 113 80);
-    color: #f3d4b0;
+    color: #ede8e1;
     text-decoration: none;
     padding: 0px 7px;
 }

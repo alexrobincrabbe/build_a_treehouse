@@ -1,6 +1,9 @@
 
-[Build a Treehouse](https://alexrobincrabbe.github.io/build_a_treehouse/) is a site about
-how to build a treehouse. 
+<div align="center">
+  <img src="assets/readme_images/responsive.png" style="background-color: black" alt="Build a Treehouse responsive photos">
+</div>
+
+[Build a Treehouse](https://alexrobincrabbe.github.io/build_a_treehouse/) as the name indicates, is a site about how to build a treehouse. It is aimed at people who are interested in building a treehouse, and looking for ideas and inspiration, as well as a showcase for the website owner's work. The main feature is a brief guide to how to build a treehouse, which is complemented by photos that show examples of particular features. 
 
 ## Table of Contents
 1. <details open>
@@ -131,17 +134,18 @@ User goals are:
 - Be inspired to build a treehouse.
 - Get an idea of the steps in involved in building a treehouse.
 - Contact the website owner, to share projects or get tips.
-- Follow the progress of the website owners treehouse.
+- Follow the progress of the website owner's treehouse.
 
 Build a Treehouse fills these needs by:
 - Providing a broad overview of the steps to build a treehouse on the home page.
 - Providing external links to inspire and inform the visitor.
 - Links in the text to the gallery, to show specific examples and show by example.
-- Providing a contact page to write a message to the website owner.
+- Providing a contact page to write a message to the website owner, ask for more info, share their own ideas.
 
 ### Business Goals
 The Business Goals of Build a Treehouse are:
-- Showcase the Treehouse built by the website owner.
+- Provide a source of information about building a treehouse.
+- Showcase the treehouse built by the website owner.
 - Gain subscribers through the newsletter.
 - Make contact with people with similar interests, exhange ideas.
 
@@ -149,13 +153,25 @@ The Business Goals of Build a Treehouse are:
 1. As a user interested in making a treehouse, I expect to see different kind of treehouses.
 2. I expect to see different stages of treehouse construction.
 3. I expect to find information to inform me how I should build a treehouse.
+4. I expect to be able to contact the website owner for more information and to have questions answered.
+5. I would like to be able to follow the website owners progress in building a treehouse through the newsletter.
 
 ## Visual Design
 ### Wireframes
 
 ### Fonts
-<div align="center">
+<div align="left">
+<img src="assets/readme_images/font1.png"
 </div>
+<div align="left">
+<img src="assets/readme_images/font2.png"
+</div>
+
+<br>
+
+- The primary font [handlee](https://fonts.google.com/specimen/Handlee) was chosen to give a more informal feel to the website. It is used for the body of the text and the logo, because it is stylized, but still easy to read.
+
+- The secondary font [caveat](https://fonts.google.com/specimen/Caveat) was chosen to compliment and contrast the primary font. It is used for the header, footer, and headings, but not for the logo, as I wanted the logo to stand out and be clear.
 
 ### Icons
 <div align="center">
@@ -167,13 +183,14 @@ The Business Goals of Build a Treehouse are:
 
 ### Colors
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/44118951/92331821-a64d1500-f079-11ea-9ceb-a9b1b85872bd.png" alt="Color Pallette">
+  <img src="assets/readme_images/colors.png" alt="Color Pallette">
 </div>
 
-- The primary colour used for the site is green, which was chosen because of the treehouse theme. A darker shade was chosen for good contrast with the text.
-- An off-white colour was chosen for the text, to contrast well with the background, while the hint of yellow/green compliments the green shades.
-- a bright green was chosen for the in text links to make them clearly stand out, while not contrasting too much with the overall theme
-- The only other colour used was a grey background for the introduction on the home page, which was chosen to be a light-grey to be subtle and not distracting, but give the introduction section a clear border.
+- The primary colour used for the site is rgb(49, 113, 80),a dark green,  which was chosen because of the treehouse theme. A darker shade was chosen for good contrast with the text.I used rgb for this color so that I could easily change the opacity.
+- An off-white colour (#ede8e1) was chosen for the text, to contrast well with the background, while the hint of yellow/green compliments the green shades and softens the contract slightly.
+- A bright green (rgb(8, 250, 125)) was chosen for the in text links to make them clearly stand out, while not contrasting too much with the overall theme.
+- A light grey (#f1f1f1) was used for some background elemnts to give them a slight contrast with lighter elements.
+- Black and white were used for borders and shadows.
 
 ### Images
 <div align="center">
@@ -187,6 +204,13 @@ The Business Goals of Build a Treehouse are:
 ## Page Elements
 ### All Pages
 #### Navbar
+
+<div align="center">
+  <img src="assets/readme_images/navbar.png" alt="navbar">
+</div>
+<div align="center">
+  <img src="assets/readme_images/navbar_mobile.png" alt="navbar mobile">
+</div>
 
 - The Navbar was based largely on the Love Running example. Other than the specific styling, a transition animation was added to the dropdown menu. 
 - On larger screens the Navigation links are shown by default.
