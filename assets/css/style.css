@@ -18,7 +18,6 @@ body {
 /* Fonts */
 h2,nav,footer{
     font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
@@ -482,10 +481,6 @@ footer ul {
     #subsections {
         display: flex;
         flex-direction: column;
-    }
-
-    .subsection p{
-        
     }
 
     #subsections img {
