@@ -39,7 +39,6 @@ header {
     display: flex;
     text-shadow: 3px 3px 3px black;
     box-shadow: 0px 1px black;
-    display: flex;
     flex-direction: row;
     align-items: baseline;
     font-size: 120%;
@@ -55,7 +54,7 @@ header a {
 /* Site Navigation Links */
 nav {
     position: absolute;
-    top: 100%;
+    top: 99%; /* 99 instead of 100 to cover box shadow */
     left: 0%;
     width: 100%;
     background-color: rgb(49 113 80);
