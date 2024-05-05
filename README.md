@@ -206,10 +206,10 @@ The Business Goals of Build a Treehouse are:
 #### Navbar
 
 <div align="center">
-  <img src="assets/readme_images/navbar.png" alt="navbar">
+  <img src="assets/readme_images/header_desktop.png" alt="navbar">
 </div>
 <div align="center">
-  <img src="assets/readme_images/navbar_mobile.png" alt="navbar mobile">
+  <img src="assets/readme_images/header_mobile.png" alt="navbar mobile">
 </div>
 
 - The Navbar was based largely on the Love Running example. Other than the specific styling, a transition animation was added to the dropdown menu. 
@@ -220,7 +220,7 @@ The Business Goals of Build a Treehouse are:
 #### Footer
 
 <div align="center">
-  <img src="assets/readme_images/footer.png" alt="footer">
+  <img src="assets/readme_images/footer_desktop.png" alt="footer">
 </div>
 
 
@@ -231,7 +231,7 @@ The Business Goals of Build a Treehouse are:
 ### Index Page
 #### Introduction
 <div align="center">
-  <img src="assets/readme_images/intro.png" alt="Introduction">
+  <img src="assets/readme_images/intro_desktop.png" alt="Introduction">
   <img src="assets/readme_images/intro_mobile.png" alt="Introduction mobile view">
 </div>
 - The top section of the index page is an introduction, that gives and overview of the kinds of treehouses that can be built, any of which may apply to the intested user.
@@ -241,7 +241,7 @@ The Business Goals of Build a Treehouse are:
 ##### Mini-Gallery
 
 <div align="center">
-  <img src="assets/readme_images/mini-gallery.png" alt="Mini-gallery">
+  <img src="assets/readme_images/mini-gallery_desktop.png" alt="Mini-gallery">
 </div>
 
 - The mini-gallery appears only on the screen for tablet screens or larger. It was added to add variety to the layour on larger screens, and utilize the screenspace. The border and shadow were added to make it stand out, as it is the only part of the site that uses images from external sources. Arrows were added to make it clear that this image is in a window that is scrollable. The scrollbars were removed for stylistic reasons.
@@ -250,7 +250,7 @@ The Business Goals of Build a Treehouse are:
 ##### Subsection links
 
 <div align="center">
-  <img src="assets/readme_images/subsection_links.png" alt="Subsection links">
+  <img src="assets/readme_images/shortcuts_mobile.png" alt="Subsection links">
 </div>
 
 - These only appear on the mobile version. They were added to allow users to quickly jump to sections without scrolling.
@@ -259,10 +259,10 @@ The Business Goals of Build a Treehouse are:
 #### Floor, Stairs and Walls/Roof sections
 
 <div align="center">
-  <img src="assets/readme_images/floor-section.png" alt="Floor section">
+  <img src="assets/readme_images/section_desktop.png" alt="Floor section">
 </div>
 <div align="center">
-  <img src="assets/readme_images/floor-section_mobile.png" alt="Floor section">
+  <img src="assets/readme_images/section_mobile.png" alt="Floor section">
 </div>
 
 - The images of the following sections show various stages of construction of a treehouse, and relate to the titles of each section. They were chosen to be both visually appealing, and informative.
@@ -271,7 +271,7 @@ The Business Goals of Build a Treehouse are:
 #### Scroll to top button
 
 <div align="center">
-  <img src="assets/readme_images/backtotop.png" alt="Back to top button">
+  <img src="assets/readme_images/backtotop_mobile.png" alt="Back to top button">
 </div>
 
 - This only appears on the mobile view. It appears just above the footer at the end of the page. 
@@ -280,7 +280,7 @@ The Business Goals of Build a Treehouse are:
 ### Gallery Page
 
 <div align="center">
-  <img src="assets/readme_images/gallery.png" alt="Gallery">
+  <img src="assets/readme_images/gallery_desktop.png" alt="Gallery">
 </div>
 
 <div align="center">
@@ -297,7 +297,7 @@ The Business Goals of Build a Treehouse are:
 ### Contact Page
 
 <div align="center">
-  <img src="assets/readme_images/contact-form.png" alt="Contact form">
+  <img src="assets/readme_images/contact-form_desktop.png" alt="Contact form">
 </div>
 
 <div align="center">
