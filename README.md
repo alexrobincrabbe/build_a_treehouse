@@ -234,8 +234,11 @@ The Business Goals of Build a Treehouse are:
   <img src="assets/readme_images/intro_desktop.png" alt="Introduction">
   <img src="assets/readme_images/intro_mobile.png" alt="Introduction mobile view">
 </div>
+
 - The top section of the index page is an introduction, that gives and overview of the kinds of treehouses that can be built, any of which may apply to the intested user.
+
 - The first image was chosen to be visually inviting, and immediately capture the interest of user visting the home page.
+
 - Simpler styles were used for the mobile version, to clearly dileanate the sections.
 
 ##### Mini-Gallery
@@ -245,6 +248,7 @@ The Business Goals of Build a Treehouse are:
 </div>
 
 - The mini-gallery appears only on the screen for tablet screens or larger. It was added to add variety to the layour on larger screens, and utilize the screenspace. The border and shadow were added to make it stand out, as it is the only part of the site that uses images from external sources. Arrows were added to make it clear that this image is in a window that is scrollable. The scrollbars were removed for stylistic reasons.
+
 - The Mini-Gallery is the only part of the sight that uses images from external sources.
 
 ##### Subsection links
