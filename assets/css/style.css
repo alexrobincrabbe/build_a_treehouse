@@ -329,11 +329,11 @@ footer ul {
 }
 
 #top-shortcut {
-    margin: -100px 20px 0px 0px;
+    margin: -100px 10px 0px 0px;
     align-self: flex-end;
     color: #ede8e1;
     z-index: 3;
-    font-size: 300%;
+    font-size: 200%;
 }
 
 #top-shortcut a {
@@ -347,6 +347,12 @@ footer ul {
     color: #ede8e1;
     text-decoration: none;
     padding: 0px 7px;
+}
+
+#top-shortcut em {
+    background-color: rgba(0,0,0,0.7);
+    border-radius:30px;
+    padding:0px 20px;
 }
 
 
