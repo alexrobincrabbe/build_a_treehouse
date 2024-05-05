@@ -103,10 +103,11 @@ nav {
 
 /* Highlight Link to Current Page */
 .this-page-link {
-    text-shadow: 2px 0px 20px rgb(160, 255, 153),
-        -2px 0px 20px rgb(160, 255, 153),
-        0px -2px 20px rgb(160, 255, 153),
-        0px 2px 20px rgb(160, 255, 153);
+    text-shadow: 2px 0px 20px white,
+        -2px 0px 20px white,
+        0px -2px 20px white,
+        0px 2px 20px white;
+    color:rgb(40, 98, 68);
 }
 
 /* Main Section Styles */
@@ -119,7 +120,7 @@ main {
 
 section a {
     text-decoration:underline;
-    color: rgb(223 184 97);
+    color: rgb(253 234 192);
 }
 
 img {
@@ -131,7 +132,7 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: rgba(49, 113, 80, 1)
+    color: rgb(49 113 80)
 }
 
 #intro h2 {
@@ -146,6 +147,33 @@ img {
 #intro p {
     padding-bottom: 10px;
     color: rgb(49, 113, 80)
+}
+
+/* Hide mini-gallery on phones */
+#mini-gallery,
+#right-arrow,
+#left-arrow {
+    display: none;
+}
+
+#mini-gallery-container {
+    display: none;
+}
+
+#right-arrow {
+    font-size: 400%;
+    margin-left: -100px;
+    margin-right: 50px;
+    opacity: 0.9;
+    color: #ede8e1
+}
+
+#left-arrow {
+    font-size: 400%;
+    margin-right: -100px;
+    margin-left: 50px;
+    opacity: 0.9;
+    color: #ede8e1;
 }
 
 section {
@@ -183,11 +211,11 @@ section {
     margin: 5px 0px;
     background-color: #f1f1f1;
     text-align: center;
-    color: rgba(49, 113, 80, 1);
+    color: rgb(49, 113, 80);
 }
 
 .subsection p {
-    background-color: rgba(49, 113, 80, 0.8);
+    background-color: rgb(49 113 80);
     color: #ede8e1;
     padding: 5px;
     border: solid black 2px;
@@ -215,34 +243,8 @@ section {
     color: hsl(35, 25%, 91%);
     opacity: 0.9;
     background-color: rgba(0,0,0,0.7);
-    border-radius:25%;
-}
-
-/* Hide mini-gallery on phones */
-#mini-gallery,
-#right-arrow,
-#left-arrow {
-    display: none;
-}
-
-#mini-gallery-container {
-    display: none;
-}
-
-#right-arrow {
-    font-size: 400%;
-    margin-left: -100px;
-    margin-right: 50px;
-    opacity: 0.9;
-    color: #ede8e1
-}
-
-#left-arrow {
-    font-size: 400%;
-    margin-right: -100px;
-    margin-left: 50px;
-    opacity: 0.9;
-    color: #ede8e1;
+    border-radius:50%;
+    padding:10px 20px;
 }
 
 /* Contact Page */
@@ -480,6 +482,10 @@ footer ul {
     #subsections {
         display: flex;
         flex-direction: column;
+    }
+
+    .subsection p{
+        
     }
 
     #subsections img {
