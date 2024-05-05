@@ -119,8 +119,8 @@ main {
 }
 
 section a {
-    text-decoration: none;
-    color: rgb(8, 250, 125);
+    text-decoration:underline;
+    color: rgb(223 184 97);
 }
 
 img {
@@ -208,13 +208,15 @@ section {
 
 .image-label {
     position: absolute;
-    z-index: 100;
+    z-index: 2;
     font-size: 300%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ede8e1;
+    color: hsl(35, 25%, 91%);
     opacity: 0.9;
+    background-color: rgba(0,0,0,0.7);
+    border-radius:25%;
 }
 
 /* Hide mini-gallery on phones */
