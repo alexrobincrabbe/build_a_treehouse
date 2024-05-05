@@ -188,7 +188,7 @@ The Business Goals of Build a Treehouse are:
 
 - The primary colour used for the site is rgb(49, 113, 80),a dark green,  which was chosen because of the treehouse theme. A darker shade was chosen for good contrast with the text.I used rgb for this color so that I could easily change the opacity.
 - An off-white colour (#ede8e1) was chosen for the text, to contrast well with the background, while the hint of yellow/green compliments the green shades and softens the contract slightly.
-- A bright green (rgb(8, 250, 125)) was chosen for the in text links to make them clearly stand out, while not contrasting too much with the overall theme.
+- rgb(253 234 192) was chosen for the in text links to give contrast to both the background and the main text.
 - A light grey (#f1f1f1) was used for some background elemnts to give them a slight contrast with lighter elements.
 - Black and white were used for borders and shadows.
 
@@ -339,15 +339,56 @@ The Business Goals of Build a Treehouse are:
     * To create wireframes.
 - [Favicon Generator](https://www.favicon.cc/)
     * Favicons
+- [Reduce Images](https://www.reduceimages.com/)
+    * Optimize images
+- [Tinify](https://tinypng.com/)
+    * Optimize images
+
 
 ----
 
 # Testing
 ## Methods
 ### Validation
+
+#### HTML
+
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
+
+<div align="center">
+  <img src="assets/readme_images/testing/index_w3.png">
+  <img src="assets/readme_images/testing/gallery_w3.png">
+  <img src="assets/readme_images/testing/contact_w3.png">
+</div>
+
+#### CSS
+
 - CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
 
+<div align="center">
+    <img src="assets/readme_images/testing/css_w3.png">
+</div>
+
+#### Lighthouse
+
+- Lighthouse validation:
+
+<div align="center">
+    <img src="assets/readme_images/testing/index_desktop_lighthouse.png">
+    <img src="assets/readme_images/testing/index_mobile_lighthouse.png">
+    <img src="assets/readme_images/testing/gallery_desktop_lighthouse.png">
+    <img src="assets/readme_images/testing/gallery_mobile_lighthouse.png">
+    <img src="assets/readme_images/testing/contact_desktop_lighthouse.png">
+    <img src="assets/readme_images/testing/contact_mobile_lighthouse.png">
+</div>
+
 ## Bugs
+
+A bug was found: The image labels in the gallery showed in front of the header when scrolling.
+<div align="center">
+    <img src="assets/readme_images/bug.png">
+</div>
+
+The bug was fixed by changing the z-index of the image labels to be lower than the z-index of the header.
 
 # Deployment
