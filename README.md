@@ -25,9 +25,6 @@
     - [Fonts](#fonts)
     - [Icons](#icons)
     - [Colors](#colors)
-    - [Images](#images)
-    - [Styling](#styling)
-    </details></li>
     </ul>
 </details>
 
@@ -42,21 +39,12 @@
     - [Index Page](#index-page)
     - [Gallery Page](#gallery-page)
     - [Contact Page](#contact-page)
-    </details></li>
+    </li>
+    <li>
 
-    <li><details>
-    <summary><a href="#additional-features">Additional Features</a></summary>
+    [Feature Ideas](#feature-ideas)
+    </li>
 
-    - [Image Loading Blur](#image-loading-blur)
-    - [Email](#email)
-    </details></li>
-
-    <li><details>
-    <summary><a href="#feature-ideas">Feature Ideas</a></summary>
-
-    - [Basic](#basic)
-    - [Content](#content)
-    </details></li>
     </ul>
 </details>
 
@@ -64,9 +52,7 @@
     <summary><a href="#technologies-used">Technologies Used</a></summary>
 
     - [Languages](#languages)
-    - [Frameworks](#frameworks)
     - [Libraries](#libraries)
-    - [APIs](#apis)
     - [Platforms](#platforms)
     - [Other Tools](#other-tools)
 </details>
@@ -83,34 +69,22 @@
     - [Mobile Testing](#mobile-testing)
     - [Desktop Testing](#desktop-testing)
     </details></li>
-
     <li><details>
     <summary><a href="#bugs">Bugs</a></summary>
 
-    - [Known Bugs](#known-bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
     - [Fixed Bugs](#fixed-bugs)
     </details></li>
+    </li>
     </ul>
 </details>
 
 5. <details open>
     <summary><a href="#deployment">Deployment</a></summary>
 
-    <ul>
-    <li><details>
-    <summary><a href="#local-deployment">Local Deployment</a></summary>
-
-    - [Local Preparation](#local-preparation)
-    - [Local Instructions](#local-instructions)
-    </details></li>
-
-    <li><details>
-    <summary><a href="#github-deployment">Github Deployment</a></summary>
-
-    - [Github Preparation](#github-preparation)
-    - [Github Instructions](#github-instructions)
-    </details></li>
-    </ul>
+    - [Clone Repository](#local-preparation)
+    - [Deploy from Github](#local-instructions)
+    
 </details>
 
 6. <details open>
@@ -159,12 +133,60 @@ The Business Goals of Build a Treehouse are:
 ## Visual Design
 ### Wireframes
 
+Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
+
+<details>
+<summary>Mobile Wireframes</summary>
+
+- Home page
+
+<div align="center">
+<img src="assets/readme_images/wireframes/home_page_mobile.png" width=200>
+</div>
+
+- Gallery Page
+
+<div align="center">
+<img src="assets/readme_images/wireframes/gallery_mobile.png" width=200>
+</div>
+
+- Contact Page 
+
+<div align="center">
+<img src="assets/readme_images/wireframes/contact_mobile.png" width=200>
+</div>
+
+</details>
+
+<details>
+<summary>Desktop Wireframes</summary>
+
+- Home page
+
+<div align="center">
+<img src="assets/readme_images/wireframes/home_page_desktop.png" width=600>
+</div>
+
+- Gallery Page
+
+<div align="center">
+<img src="assets/readme_images/wireframes/gallery_desktop.png" width=600>
+</div>
+
+- Contact Page 
+
+<div align="center">
+<img src="assets/readme_images/wireframes/contact_desktop.png" width=600>
+</div>
+
+</details>
+
 ### Fonts
 <div align="left">
-<img src="assets/readme_images/font1.png"
+<img src="assets/readme_images/font1.png">
 </div>
 <div align="left">
-<img src="assets/readme_images/font2.png"
+<img src="assets/readme_images/font2.png">
 </div>
 
 <br>
@@ -181,6 +203,14 @@ The Business Goals of Build a Treehouse are:
 - Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
 - Icons are utilised in the footer for links to external sites, the dropdown menus, and the back to top link.
 
+#### Favicon
+
+<div align="center">
+  <img src="assets/favicon/favicon.ico" alt="Favicon"  width="80">
+</div>
+
+- The Favicon was designed using a [favicon generator](https://www.favicon.cc/). Original design used brown and green, but the colours were changed to match the website design. 
+
 ### Colors
 <div align="center">
   <img src="assets/readme_images/colors.png" alt="Color Pallette">
@@ -191,14 +221,6 @@ The Business Goals of Build a Treehouse are:
 - rgb(253 234 192) was chosen for the in text links to give contrast to both the background and the main text.
 - A light grey (#f1f1f1) was used for some background elemnts to give them a slight contrast with lighter elements.
 - Black and white were used for borders and shadows.
-
-### Images
-<div align="center">
-</div>
-
-- All images used were my own, other than the mini-gallery on the home page. 
-
-### Styling 
 
 # Features
 ## Page Elements
@@ -314,7 +336,6 @@ The Business Goals of Build a Treehouse are:
 
 ## Feature Ideas
 
-### Content 
 - In order to keep the scope of the project manageable, the instructions on the site were kept very brief. In practice much more detail should be included on building a tree house. This would include more expansive and specific sections
 - A cost caculator, with the floor area and type of treehouse(with/without roof). Would likely need Javascript to implement.
 - An extra page, listing tools and materials that are needed
@@ -347,7 +368,6 @@ The Business Goals of Build a Treehouse are:
     * Optimize images
 - [Tinify](https://tinypng.com/)
     * Optimize images
-
 
 ----
 
@@ -411,15 +431,52 @@ The Business Goals of Build a Treehouse are:
     <img src="assets/readme_images/testing/contact_mobile_lighthouse.png">
 </div>
 
+#### Mobile Testing
+
+- I tested the site on my android device. All pages and links worked correctly. 
+
+#### Desktop Testing
+
+- I checked all pages and links on Chrome, Safari, Microsoft Edge, and Mozilla Firefox.
+
+- No problems were found on Chrome, Safari, or Microsoft Edge.
+
+- A problem was found on the gallery page in Mozilla Firefox(see unfixed bugs).
 
 ## Bugs
 
-A bug was found: The image labels in the gallery showed in front of the header when scrolling.
+### Unfixed Bugs
+
+- In Mozzilla Firefox, a bug was found on the gallery page. There is a large spacing between
+gallery images. 
+
+<div align="center">
+    <img src="assets/readme_images/testing/Firefox_bug.png">
+</div>
+
+- The source of the bug was determined to be the sizing of the image-container class divs.
+
+ - I checked the size of the gallery container, which contain the divs, and the images and labels inside the divs to see if any of these were the causing the image containers to be resized, but all other elements had the correct sizing. 
+
+- Shown below is the dimensions of the image containers.
+
+<div align="center">
+    <img src="assets/readme_images/testing/container-size.png">
+</div>
+
+- The only way I could get the container width to change was by setting a fixed width, however since the images are different sizes, this was not a solution to the bug. 
+
+- The sizing works correctly on all other browsers(Chrome, Edge, Safari).
+
+### Fixed Bugs
+
+- A bug was found: The image labels in the gallery showed in front of the header when scrolling.
+
 <div align="center">
     <img src="assets/readme_images/bug.png">
 </div>
 
-The bug was fixed by changing the z-index of the image labels to be lower than the z-index of the header.
+- The bug was fixed by changing the z-index of the image labels to be lower than the z-index of the header.
 
 # Deployment
 
@@ -427,17 +484,37 @@ The bug was fixed by changing the z-index of the image labels to be lower than t
 
 1. Open a terminal in the folder you want to clone the project to.
 
-2. In the terminal type "git clone https://github.com/alexrobincrabbe/build_a_treehouse" hit enter.
+2. In the terminal type:
 
-3. type "cd .\build_a_treehouse\" hit enter.
+    ```
+      git clone https://github.com/alexrobincrabbe/build_a_treehouse
+    ```
 
-6. In the terminal type "git remote rm origin" hit enter.
+3. Change to the repository folder:
+
+    ```
+      cd .\build_a_treehouse\
+    ```
+
+6. Remove the origin:
+
+    ```
+      git remote rm origin"
+    ```
 
 5. On Github, create a new repository with a name of your choosing.
 
-6. Type "git remote add origin $\lt$ url of your repository $\gt$" hit enter.
+6. Add your Github repository to the origin:
 
-7. Type "git push --set-upstream origin main" hit enter.
+    ```
+      git remote add origin $\lt$ url of your repository $\gt$
+    ```
+
+7. Push the files to your repository:
+
+    ```
+      git push --set-upstream origin main
+    ```
 
 ## Deploy from Github
 
@@ -454,3 +531,32 @@ The bug was fixed by changing the z-index of the image labels to be lower than t
 6. Wait a few minutes, refresh the page.
 
 7. The link to the deployed site will appear near the top of the page.
+
+# Credits
+
+## Images
+
+All images on the site are photos taken by myself of a treehouse I built, with the exception of the Mini-Gallery images(which only features in the desktop version).
+
+Image sources:
+
+https://cdn.apartmenttherapy.info/image/upload/v1558432909/at/archive/5ba159856722b52e4c3be0545e70c1a37282623e.jpg
+
+https://www.familyhandyman.com/wp-content/uploads/2019/05/FH12MAR_52_651_005-treehouse-building-tips-1.jpg
+
+https://i.pinimg.com/736x/f5/ec/3b/f5ec3b5c87e410f437f42002f82ee563.jpg
+
+https://www.pinterest.de/pin/548946642072268690/
+
+https://d3emaq2p21aram.cloudfront.net/media/cache/venue_roundup_single_image/uploads/%200Regular_Roundup/Treehouse2017/Cindercone_05.jpg
+
+
+
+
+## Code
+
+The [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3) project was used as a template for the header and footer in the html code.
+
+## Readme
+
+The [readme](https://github.com/Ri-Dearg/horizon-photo/blob/master/README.md?plain=1) by Rory Patrick(mentor) was used as a template. 
