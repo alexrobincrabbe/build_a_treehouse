@@ -375,16 +375,42 @@ The Business Goals of Build a Treehouse are:
 
 #### Lighthouse
 
-- Lighthouse validation:
+- Home Page (Desktop)
 
 <div align="center">
     <img src="assets/readme_images/testing/index_desktop_lighthouse.png">
+</div>
+
+- Home Page (Mobile)
+
+<div align="center">
     <img src="assets/readme_images/testing/index_mobile_lighthouse.png">
+</div>
+
+- Gallery Page (Desktop)
+
+<div align="center">
     <img src="assets/readme_images/testing/gallery_desktop_lighthouse.png">
+</div>
+
+- Gallery Page (Mobile)
+
+<div align="center">
     <img src="assets/readme_images/testing/gallery_mobile_lighthouse.png">
-    <img src="assets/readme_images/testing/contact_desktop_lighthouse.png">
+</div>
+
+- Contact Page (Desktop)
+
+<div align="center">
+   <img src="assets/readme_images/testing/contact_desktop_lighthouse.png">
+</div>
+
+- Contact Page (Mobile)
+
+<div align="center">
     <img src="assets/readme_images/testing/contact_mobile_lighthouse.png">
 </div>
+
 
 ## Bugs
 
@@ -396,3 +422,35 @@ A bug was found: The image labels in the gallery showed in front of the header w
 The bug was fixed by changing the z-index of the image labels to be lower than the z-index of the header.
 
 # Deployment
+
+## Clone the Repository
+
+1. Open a terminal in the folder you want to clone the project to.
+
+2. In the terminal type "git clone https://github.com/alexrobincrabbe/build_a_treehouse" hit enter.
+
+3. type "cd .\build_a_treehouse\" hit enter.
+
+6. In the terminal type "git remote rm origin" hit enter.
+
+5. On Github, create a new repository with a name of your choosing.
+
+6. Type "git remote add origin $\lt$ url of your repository $\gt$" hit enter.
+
+7. Type "git push --set-upstream origin main" hit enter.
+
+## Deploy from Github
+
+1. On Github, open the repository you made.
+
+2. Open "settings" tab.
+
+3. Click on "pages".
+
+4. Under branch, select branch "main".
+
+5. Click save.
+
+6. Wait a few minutes, refresh the page.
+
+7. The link to the deployed site will appear near the top of the page.
