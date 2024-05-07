@@ -102,13 +102,13 @@
 ## Goals
 ### Visitor Goals
 The target audience for Build a Treehouse are:
-- People who want are interest in building their own treehouse.
+- People who want are interested in building their own treehouse.
 - People who are interested in seeing beautiful picture of things built by other people.
 - People who want to share things they have built and exchange ideas with the website owner.
 
 User goals are:
 - Be inspired to build a treehouse.
-- Get an idea of the steps in involved in building a treehouse.
+- Get an idea of the steps involved in building a treehouse.
 - Contact the website owner, to share projects or get tips.
 - Follow the progress of the website owner's treehouse.
 
@@ -123,14 +123,14 @@ The Business Goals of Build a Treehouse are:
 - Provide a source of information about building a treehouse.
 - Showcase the treehouse built by the website owner.
 - Gain subscribers through the newsletter.
-- Make contact with people with similar interests, exhange ideas.
+- Make contact with people with similar interests, exchange ideas.
 
 ### User Stories
-1. As a user interested in making a treehouse, I expect to see different kind of treehouses.
+1. As a user interested in making a treehouse, I expect to see different kinds of treehouses.
 2. I expect to see different stages of treehouse construction.
 3. I expect to find information to inform me how I should build a treehouse.
 4. I expect to be able to contact the website owner for more information and to have questions answered.
-5. I would like to be able to follow the website owners progress in building a treehouse through the newsletter.
+5. I would like to be able to follow the website owners' progress in building a treehouse through the newsletter.
 
 ## Visual Design
 ### Wireframes
@@ -193,9 +193,9 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
 
 <br>
 
-- The primary font [handlee](https://fonts.google.com/specimen/Handlee) was chosen to give a more informal feel to the website. It is used for the body of the text and the logo, because it is stylized, but still easy to read.
+- The primary font [handlee](https://fonts.google.com/specimen/Handlee) was chosen to give a more informal feel to the website. It is used for the body of the text and the logo, because it is stylised, but still easy to read.
 
-- The secondary font [caveat](https://fonts.google.com/specimen/Caveat) was chosen to compliment and contrast the primary font. It is used for the header, footer, and headings, but not for the logo, as I wanted the logo to stand out and be clear.
+- The secondary font [caveat](https://fonts.google.com/specimen/Caveat) was chosen to complement and contrast the primary font. It is used for the header, footer and headings, but not for the logo, as I wanted the logo to stand out and be clear.
 
 ### Icons
 <div align="center">
@@ -203,7 +203,7 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
 </div>
 
 - Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
-- Icons are utilised in the footer for links to external sites, the dropdown menus, and the back to top link.
+- Icons are utilised in the footer for links to external sites, the dropdown menus and the back to top link.
 
 #### Favicon
 
@@ -218,10 +218,10 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
   <img src="assets/readme_images/colors.png" alt="Color Pallette">
 </div>
 
-- The primary colour used for the site is RGB(49, 113, 80)(#317150),a dark green,  which was chosen because of the treehouse theme. A darker shade was chosen for good contrast with the text.I used rgb for this color so that I could easily change the opacity.
-- An off-white colour (#EDE8E1) was chosen for the text, to contrast well with the background, while the hint of yellow/green compliments the green shades and softens the contract slightly.
+- The primary colour used for the site is RGB(49, 113, 80)(#317150) a dark green,  which was chosen because of the treehouse theme. A darker shade was chosen for good contrast with the text. I used rgb for this colour so that I could easily change the opacity.
+- An off-white colour (#EDE8E1) was chosen for the text, to contrast well with the background, while the hint of yellow/green complements the green shades and softens the contrast slightly.
 - RGB(253, 234, 192)(#FDEAC0) was chosen for the in text links to give contrast to both the background and the main text. 
-- A light grey (#f1f1f1) was used for some background elemnts to give them a slight contrast with lighter elements.I used this instead of #EDE8E1 because it had a cleaner appearance.
+- A light grey (#f1f1f1) was used for some background elements to give them a slight contrast with lighter elements. I used this instead of #EDE8E1 because it had a cleaner appearance.
 - RGB(40, 98, 68)(#286244) was used specifically for the link to the current page. It is a slightly darkened shade of #317150. This had to be changed to increase the contrast with the background, for accessibility reasons.
 - Black and white were used for borders and shadows.
 
@@ -249,8 +249,7 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
 </div>
 
 
-- The footer is styled similarly to the header
-- However is not fixed, and is only visible when scrolling down.
+- The footer is styled similarly to the header, however is not fixed, and is only visible when scrolling down.
 - It contains links to external sites, with more information about treehouses for interested users.
 
 ### Index Page
@@ -260,11 +259,11 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
   <img src="assets/readme_images/intro_mobile.png" alt="Introduction mobile view">
 </div>
 
-- The top section of the index page is an introduction, that gives and overview of the kinds of treehouses that can be built, any of which may apply to the intested user.
+- The top section of the index page is an introduction that gives an overview of the kinds of treehouses that can be built, any of which may apply to the interested user.
 
 - The first image was chosen to be visually inviting, and immediately capture the interest of user visting the home page.
 
-- Simpler styles were used for the mobile version, to clearly dileanate the sections.
+- Simpler styles were used for the mobile version, to clearly deleanate the sections.
 
 ##### Mini-Gallery
 
@@ -272,9 +271,9 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
   <img src="assets/readme_images/mini-gallery_desktop.png" alt="Mini-gallery">
 </div>
 
-- The mini-gallery appears only on the screen for tablet screens or larger. It was added to add variety to the layour on larger screens, and utilize the screenspace. The border and shadow were added to make it stand out, as it is the only part of the site that uses images from external sources. Arrows were added to make it clear that this image is in a window that is scrollable. The scrollbars were removed for stylistic reasons.
+- The mini-gallery appears only on the screen for tablet screens or larger. It was included to add variety to the layout on larger screens and utilise the screenspace. The border and shadow were added to make it stand out, as it is the only part of the site that uses images from external sources. Arrows were added to make it clear that this image is in a window that is scrollable. The scrollbars were removed for stylistic reasons.
 
-- The Mini-Gallery is the only part of the sight that uses images from external sources.
+- The Mini-Gallery is the only part of the site that uses images from external sources.
 
 ##### Subsection links
 
@@ -318,9 +317,9 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
 
 
 - The Gallery page contains images to specific parts of the treehouse.
-- It is intended to be browsed, simply for people intested in seeing the images.
-- It is also intended to be functional. Individual images are linked by words in the text on the main page. This allows users to see images that show more detail than is shown on the home page, if they are interested, without overcrowding the homepage with images.
-- On larger screens the scroll direction was changed to horizontal. This was to allow several images to be shown screen at the same time, utilizing the whole screen and reducing the amount of scrolling. It also means that the the images can be scaled with a uniform height, and all fit entirely on the screen.
+- It is intended to be browsed, simply for people interested in seeing the images.
+- It is intended to be functional. Individual images are linked by words in the text on the main page. This allows users to see images that show more detail than is shown on the home page, if they are interested, without overcrowding the homepage with images.
+- On larger screens the scroll direction was changed to horizontal. This was to allow several images to be shown on the screen at the same time, utilising the whole screen and reducing the amount of scrolling. It also means that the images can be scaled with a uniform height and all fit entirely on the screen.
 - On mobile view, the scroll to top button also appears.
 
 ### Contact Page
@@ -333,15 +332,15 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
   <img src="assets/readme_images/contact-form_mobile.png" alt="Contact form mobile view">
 </div>
 
-- The contact page contains a simple contact form, which allows users to contact the website owner and subcribe to a newsletter
-- The form is reponsive to use space efficiently on mobile screens
-- All fields must be filled out to submit the form, and the email field only accepts a vaid email format.
+- The contact page contains a simple contact form, which allows users to contact the website owner and subcribe to a newsletter.
+- The form is reponsive, so that space is used efficiently on mobile screens.
+- All fields must be filled out to submit the form and the email field only accepts a valid email format.
 
 ## Feature Ideas
 
 - In order to keep the scope of the project manageable, the instructions on the site were kept very brief. In practice much more detail should be included on building a tree house. This would include more expansive and specific sections
-- A cost caculator, with the floor area and type of treehouse(with/without roof). Would likely need Javascript to implement.
-- An extra page, listing tools and materials that are needed
+- A cost caculator, with the floor area and type of treehouse (with/without roof), would likely need Javascript to implement.
+- An extra page listing tools and materials that are needed.
 
 # Technologies Used
 ## Languages
@@ -450,7 +449,7 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
 
 - No problems were found on Chrome, Safari, or Microsoft Edge.
 
-- A problem was found on the gallery page in Mozilla Firefox(see [unfixed bugs](#unfixed-bugs)).
+- A problem was found on the gallery page in Mozilla Firefox (see [unfixed bugs](#unfixed-bugs)).
 
 ## Bugs
 
@@ -467,7 +466,7 @@ gallery images.
 
  - I checked the size of the gallery container, which contain the divs, and the images and labels inside the divs to see if any of these were the causing the image containers to be resized, but all other elements had the correct sizing. 
 
-- Shown below is the dimensions of the image containers.
+- Shown below are the dimensions of the image containers.
 
 <div align="center">
     <img src="assets/readme_images/testing/container-size.png">
@@ -475,7 +474,7 @@ gallery images.
 
 - The only way I could get the container width to change was by setting a fixed width, however since the images are different sizes, this was not a solution to the bug. 
 
-- The sizing works correctly on all other browsers(Chrome, Edge, Safari).
+- The sizing works correctly on all other browsers (Chrome, Edge, Safari).
 
 ### Fixed Bugs
 
@@ -545,7 +544,7 @@ gallery images.
 
 ## Images
 
-All images on the site are photos taken by myself of a treehouse I built, with the exception of the Mini-Gallery images(which only features in the desktop version).
+All images on the site are photos taken by myself of a treehouse I built, with the exception of the Mini-Gallery images (which only features in the desktop version).
 
 Image sources:
 
@@ -569,4 +568,4 @@ Thanks to Lewis for checking my site on his iPhone.
 
 ## Readme
 
-The [readme](https://github.com/Ri-Dearg/horizon-photo/blob/master/README.md?plain=1) by Rory Patrick(mentor) was used as a template. 
+The [readme](https://github.com/Ri-Dearg/horizon-photo/blob/master/README.md?plain=1) by Rory Patrick (mentor) was used as a template. 
