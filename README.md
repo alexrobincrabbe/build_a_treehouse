@@ -79,7 +79,7 @@
     </ul>
 </details>
 
-5. <details open>
+5. <details>
     <summary><a href="#deployment">Deployment</a></summary>
 
     - [Clone Repository](#local-preparation)
@@ -87,11 +87,13 @@
     
 </details>
 
-6. <details open>
-    <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
+6. <details>
+    <summary><a href="#credits">Credits</a></summary>
 
-    - [Content](#content)
-    - [Contact](#contact)
+    - [Images](#images)
+    - [Code](#code)
+    - [Tests](#tests)
+    - [Readme](#readme)
 </details>
 
 ----
@@ -216,10 +218,11 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
   <img src="assets/readme_images/colors.png" alt="Color Pallette">
 </div>
 
-- The primary colour used for the site is rgb(49, 113, 80),a dark green,  which was chosen because of the treehouse theme. A darker shade was chosen for good contrast with the text.I used rgb for this color so that I could easily change the opacity.
-- An off-white colour (#ede8e1) was chosen for the text, to contrast well with the background, while the hint of yellow/green compliments the green shades and softens the contract slightly.
-- rgb(253 234 192) was chosen for the in text links to give contrast to both the background and the main text.
-- A light grey (#f1f1f1) was used for some background elemnts to give them a slight contrast with lighter elements.
+- The primary colour used for the site is RGB(49, 113, 80)(#317150),a dark green,  which was chosen because of the treehouse theme. A darker shade was chosen for good contrast with the text.I used rgb for this color so that I could easily change the opacity.
+- An off-white colour (#EDE8E1) was chosen for the text, to contrast well with the background, while the hint of yellow/green compliments the green shades and softens the contract slightly.
+- RGB(253, 234, 192)(#FDEAC0) was chosen for the in text links to give contrast to both the background and the main text. 
+- A light grey (#f1f1f1) was used for some background elemnts to give them a slight contrast with lighter elements.I used this instead of #EDE8E1 because it had a cleaner appearance.
+- RGB(40, 98, 68)(#286244) was used specifically for the link to the current page. It is a slightly darkened shade of #317150. This had to be changed to increase the contrast with the background, for accessibility reasons.
 - Black and white were used for borders and shadows.
 
 # Features
@@ -433,7 +436,13 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
 
 #### Mobile Testing
 
-- I tested the site on my android device. All pages and links worked correctly. 
+- I tested the site on my android device. All pages and links worked correctly.
+
+- On iOS the submit button on the contact page seems to have a minor issue:
+
+<div align="center">
+    <img src="assets/readme_images/testing/contact_ios.png" width="200">
+</div>
 
 #### Desktop Testing
 
@@ -441,7 +450,7 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
 
 - No problems were found on Chrome, Safari, or Microsoft Edge.
 
-- A problem was found on the gallery page in Mozilla Firefox(see unfixed bugs).
+- A problem was found on the gallery page in Mozilla Firefox(see [unfixed bugs](#unfixed-bugs)).
 
 ## Bugs
 
@@ -507,7 +516,7 @@ gallery images.
 6. Add your Github repository to the origin:
 
     ```
-      git remote add origin $\lt$ url of your repository $\gt$
+      git remote add origin <url of your repository>
     ```
 
 7. Push the files to your repository:
@@ -550,12 +559,13 @@ https://www.pinterest.de/pin/548946642072268690/
 
 https://d3emaq2p21aram.cloudfront.net/media/cache/venue_roundup_single_image/uploads/%200Regular_Roundup/Treehouse2017/Cindercone_05.jpg
 
-
-
-
 ## Code
 
 The [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3) project was used as a template for the header and footer in the html code.
+
+## Tests
+
+Thanks to Lewis for checking my site on his iPhone.
 
 ## Readme
 
