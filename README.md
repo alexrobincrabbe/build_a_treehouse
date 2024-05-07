@@ -370,6 +370,9 @@ Wireframes were made using [Balsamiq](https://balsamiq.com/wireframes).
     * Optimize images
 - [Tinify](https://tinypng.com/)
     * Optimize images
+- [Image Resizer](https://imageresizer.com/)
+    * Reduce image sizes
+
 
 ----
 
