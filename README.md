@@ -567,7 +567,7 @@ The [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3) 
 
 ## Tests
 
-Thanks to Lewis for checking my site on his iPhone.
+Thanks to Lewis for checking my site on his iPhone, and Ioan for helping me optimize the images.
 
 ## Readme
 
